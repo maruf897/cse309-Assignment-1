@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+body {
+  background-color: #e3e2df;
+}
+p {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.name {
+  color: #3b2e5a;
+  font-weight: 800;
+}
+.job-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.header,
+#about-me,
+.education {
+  height: 100vh;
+  width: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header * {
+  padding: 0.5%;
+}
+.about-link,
+.contact-link {
+  margin: 5px;
+  align-self: center;
+  border-radius: 50px;
+  width: 10%;
+  background-color: #b1a296;
+}
+.header img {
+  height: 50px;
+  width: 50px;
+  align-self: center;
+  margin-top: 15%;
+}
+
+#about-me p {
+  width: 50%;
+
+  text-align: center;
+  align-self: center;
+  padding: 0.5%;
+}
+#about-me img {
+  height: 100px;
+  width: 100px;
+  border: 5px black solid;
+  border-radius: 100px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+.degrees {
+  display: flex;
+  flex-direction: column;
+}
+.education img {
+  align-self: center;
+  height: 40 px;
+  width: 50px;
+  margin: 0px;
+}
+.degrees li {
+  margin: 10px;
+  list-style: none;
+
+  width: 50%;
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #b1a296;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.degrees li:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+.projects {
+  height: 50vh;
+}
+.projects h2 {
+  margin-left: 45%;
+  margin-top: 10%;
+  padding-top: 10px;
+}
+.project {
+  border: 2px grey solid;
+  padding: 5px;
+  float: left;
+  margin-top: 10%;
+  margin-left: 10%;
+  text-align: center;
+  background-color: #b1a296;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.contact {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  clear: both;
+}
+.contact p {
+  margin-left: 5%;
+}
+.contact h2 {
+  position: absolute;
+  top: 10%;
+}
